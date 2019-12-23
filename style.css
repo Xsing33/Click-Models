@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #ffffff;
+  font-family: "Mukta Mahee", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #ff4ab3;
+}
+
+header p {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 1060px;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  justify-content: space-between;
+  grid-gap: 10px;
+}
+
+.model {
+  display: flex;
+  flex-direction: column-reverse;
+  object-fit: contain;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.model-name {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #ff4ab3;
+  order: 1;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.model-description {
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+}
